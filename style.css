@@ -193,3 +193,24 @@ a:link {
     padding: 20px;
 }
 
+/* DATAVIZ */
+
+.dataviz {
+    margin: 30px 100px 0 100px;
+}
+
+.titre-lutte {
+    font-size: 25px;
+    color: #A12A13;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.container-dataviz {
+    display: flex;
+    flex-direction: row;
+}
+
+.legende {
+    font-size: 14px;
+}
