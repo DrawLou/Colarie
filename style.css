@@ -160,7 +160,19 @@ body {
     text-align: justify;
 }
 
+.voir {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
 .voirPlus {
     font-size: 18px;
     text-align: center;
+    text-decoration: none;
+    color: #E34985;
+    margin: 15px;
+    border: 2px solid #E34985;
+    width: 300px;
+    align-items: center;
 }
