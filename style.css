@@ -5,6 +5,10 @@ body {
     font-family: 'Nimbus Sans', sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* ACCUEIL */
 .accueil {
     margin: 30px 100px 0 100px;
@@ -24,7 +28,6 @@ body {
 }
 
 .nav-item a {
-    text-decoration: none;
     font-weight: 800;
     font-size: 16px;
     color: #A12A13;    
@@ -169,7 +172,6 @@ body {
 .voirPlus {
     font-size: 18px;
     text-align: center;
-    text-decoration: none;
     color: #E34985;
     margin: 15px;
     border: 2px solid #E34985;
