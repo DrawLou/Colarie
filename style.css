@@ -283,3 +283,88 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
+.reseaux {
+    margin: 50px 100px 0 100px;
+}
+
+.container-reseauxsociaux {
+    display: flex;
+    justify-content: center;
+}
+
+.fb {
+    margin: 0 25px 15px;
+}
+
+.ytb {
+    margin: 0 25px 15px;
+}
+
+.insta {
+    margin: 0 25px 15px;
+}
+
+.twt {
+    margin: 0 25px 15px;
+}
+
+.newsletter {
+    padding: 10px;
+    font-size: 20px;
+    color: #E6A116;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid #E6A116;
+    width: 400px;
+    height: 20px;
+    margin: auto;
+}
+
+.container-footer {
+    margin: 80px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre-service {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #E6A116;
+}
+
+.titre-information {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #E6A116;
+}
+
+.titre-paimentSecurise {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #E6A116;
+}
+
+.menuFooter {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.menuFooter a {
+    color: #E6A116;
+}
+
+.onglet {
+    margin: 0 0 5px 0;
+}
+
+.container-logoBanque {
+    display: flex;
+    justify-content: space-between;
+}
