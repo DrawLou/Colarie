@@ -269,6 +269,7 @@ a:link {
 
 footer {
     background-color: #A12A13;
+    height: 550px;
 }
 
 .container-fideliser {
@@ -282,6 +283,7 @@ footer {
 .textFooter {
     font-size: 20px;
     text-align: center;
+    color: #E6A116;
 }
 
 .reseaux {
@@ -367,4 +369,28 @@ footer {
 .container-logoBanque {
     display: flex;
     justify-content: space-between;
+}
+
+.container-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.ongletF {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.ongletF a {
+    font-size: 16px;
+    color: #E6A116;    
+}
+
+.copyright {
+    font-size: 14px;
+    color: #E6A116;
+    text-align: center;
+    margin: 25px 0;
 }
