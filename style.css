@@ -209,8 +209,58 @@ a:link {
 .container-dataviz {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .legende {
     font-size: 14px;
+}
+
+.paragraphe {
+    font-size: 16px;
+}
+
+/* VOS AVIS */
+
+.avis {
+    margin: 30px 100px 0 100px;
+}
+
+.titre-avis {
+    color: #A12A13;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bloc {
+    background-color: #E65D11;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-vosAvis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imgAvis {
+    justify-content: center;
+    width: 250px;
+    height: 260px;
+    background-color: #E6A116;
+}
+
+.texte-avis {
+    margin: 0 0 0 20px;
+}
+
+.nomPrenom {
+
+}
+
+.commentaire {
+    
 }
