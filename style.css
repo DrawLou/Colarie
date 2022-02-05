@@ -258,9 +258,21 @@ a:link {
 }
 
 .nomPrenom {
-
+ font-size: 20px;
 }
 
 .commentaire {
-    
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #A12A13;
+}
+
+.container-fideliser {
+    margin: 30px 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
 }
