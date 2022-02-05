@@ -274,5 +274,12 @@ footer {
 .container-fideliser {
     margin: 30px 100px 0 100px;
     display: flex;
+    align-items: center;
     justify-content: space-around;
+
+}
+
+.textFooter {
+    font-size: 20px;
+    text-align: center;
 }
