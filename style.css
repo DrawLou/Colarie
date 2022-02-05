@@ -19,6 +19,7 @@ a:link {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -56,6 +57,7 @@ a:link {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 80px 0;
 }
 
@@ -127,6 +129,7 @@ a:link {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .produit1 {
@@ -210,6 +213,7 @@ a:link {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .legende {
@@ -277,7 +281,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    flex-wrap: wrap;
 }
 
 .textFooter {
