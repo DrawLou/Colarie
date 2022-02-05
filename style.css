@@ -1,14 +1,11 @@
 body {
-    margin: 0;
+    margin: 60px 100px 0 100px;
     padding: 0;
     background-color: #E6A116;
     font-family: 'Nimbus Sans', sans-serif;
 }
 
 /* ACCUEIL */
-.accueil {
-    margin: 80px 100px 0;
-}
 
 .container-navbar {
     display: flex;
@@ -20,12 +17,13 @@ body {
 .nav-item {
     display: inline-block;
     list-style-type: none;
-    margin: 0 5px 0 5px;
+    margin: 0 25px 0 25px;
 }
 
 .nav-item a {
     text-decoration: none;
     font-weight: 800;
+    font-size: 16px;
     color: #A12A13;    
     text-transform :uppercase;
 }
@@ -38,3 +36,44 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
+
+#compte {
+    margin: 0 20px 0 20px;
+}
+
+#panier {
+    margin: 0 20px 0 20px;
+}
+
+.container-accueil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titre {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: justify;
+    margin: 80px 0 0 0;
+}
+
+.text {
+    font-size: 20px;
+    text-align: justify;
+    width: 450px;
+    margin: 0;
+}
+
+.produit {
+    margin: 80px 0 0 0;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #A12A13;
+    background-color: #A12A13;
+}
+
+/* SLOGAN 1 */
+
