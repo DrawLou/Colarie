@@ -134,7 +134,7 @@ a:link {
     width: 340px;
     height: 380px;
     border: 1px solid #A12A13;
-    background-color: #A12A13;
+    background-color: #E34985;
 }
 
 .produit2 {
@@ -142,7 +142,7 @@ a:link {
     width: 340px;
     height: 380px;
     border: 1px solid #A12A13;
-    background-color: #A12A13;
+    background-color: #E34985;
 }
 
 .produit3 {
@@ -150,15 +150,17 @@ a:link {
     width: 340px;
     height: 380px;
     border: 1px solid #A12A13;
-    background-color: #A12A13;
+    background-color: #E34985;
 }
 
 .titre-produit {
+    color: #A12A13;
     font-size: 20px;
     text-align: center;
 }
 
 .descriptionProduit {
+    color: #fff;
     font-size: 16px;
     text-align: justify;
 }
@@ -190,3 +192,4 @@ a:link {
     height: 150px;
     padding: 20px;
 }
+
