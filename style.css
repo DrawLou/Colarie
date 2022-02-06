@@ -40,15 +40,23 @@ a:link {
 
 .container-icone {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 #compte {
     margin: 0 20px 0 20px;
 }
 
+#compte img {
+    width: 20px;
+}
+
 #panier {
     margin: 0 20px 0 20px;
+}
+
+#panier img {
+    width: 30px;
 }
 
 .container-accueil {
@@ -276,7 +284,7 @@ a:link {
 
 footer {
     background-color: #A12A13;
-    height: 550px;
+    height: 610px;
 }
 
 .container-fideliser {
@@ -298,6 +306,7 @@ footer {
 
 .container-reseauxsociaux {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -305,16 +314,32 @@ footer {
     margin: 0 25px 15px;
 }
 
+.fb img {
+    width: 40px;
+}
+
 .ytb {
     margin: 0 25px 15px;
+}
+
+.ytb img {
+    width: 40px;
 }
 
 .insta {
     margin: 0 25px 15px;
 }
 
+.insta img {
+    width: 40px;
+}
+
 .twt {
     margin: 0 25px 15px;
+}
+
+.twt img {
+    width: 40px;
 }
 
 .newsletter {
@@ -374,7 +399,32 @@ footer {
 
 .container-logoBanque {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.visa img{
+    width: 70px;
+}
+
+.visa {
+    margin: 5px 25px 0 0;
+}
+
+.master img{
+    width: 60px;
+}
+
+.master {
+    margin: 5px 25px 0 0;
+}
+
+.paypal img{
+    width: 40px;
+}
+
+.paypal {
+    margin: 5px 25px 0 0;
 }
 
 .container-copyright {
@@ -386,7 +436,7 @@ footer {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    margin: 0 25px;
+    margin: 50px 25px 0 25px;
 }
 
 .ongletF a {
@@ -398,5 +448,5 @@ footer {
     font-size: 14px;
     color: #E6A116;
     text-align: center;
-    margin: 25px 0;
+    margin: 0;
 }
