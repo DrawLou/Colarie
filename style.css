@@ -100,9 +100,8 @@ a:link {
 .slogan1 {
     background-color: #A12A13;
     background: url(img/motif3_1.png);
-    background-size: 500px;
-    background-repeat: repeat;
-    height: 150px;
+    background-size: cover;
+    background-position: center;
     padding: 20px;
 }
 
@@ -201,9 +200,9 @@ a:link {
 
 .slogan2 {
     background-color: #A12A13;
-    background: url(img/motif3_1.png);
-    background-size: 500px;
-    background-repeat: repeat;
+    background-image: url(img/motif2.png);
+    background-size: cover;
+    background-position: center;
     height: 150px;
     padding: 20px;
 }
@@ -238,7 +237,7 @@ a:link {
 /* VOS AVIS */
 
 .avis {
-    margin: 30px 100px 0 100px;
+    margin: 30px 100px 80px 100px;
 }
 
 .titre-avis {
