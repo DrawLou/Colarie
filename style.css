@@ -226,8 +226,22 @@ a:link {
     justify-content: space-around;
 }
 
+#myChart1 {
+    display: block;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+#myChart2 {
+    display: block;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+}
+
 .legende {
     font-size: 14px;
+    text-align: center;
 }
 
 .paragraphe {
