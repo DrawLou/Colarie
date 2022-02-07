@@ -24,7 +24,7 @@ const config = {
 };
 
 // On affiche le chart dans l'élément avec l'ID correspondant
-var myChart1 = new Chart1(
-    document.getElementById('myChart1'),
+var myChart = new Chart(
+    document.getElementById('myChart'),
     config
 );
