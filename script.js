@@ -7,8 +7,8 @@ const data1 = {
         label: "Pourcentage d'obésité en France ( + de 18ans)",
         data: [6.1, 6.5, 8.5, 10.1, 11.3, 12.4, 14.5, 15.0, 17.0],
         fill: true,
-        backgroundColor: 'rgba(221, 36, 36, 0.2)',
-        borderColor: 'rgb(70, 36, 221)',
+        backgroundColor: 'rgba(230, 93, 17, 0.3)',
+        borderColor: 'rgb(227, 73, 133 )',
         tension: 0.5 // La fluidité de la ligne
     }]
 };
