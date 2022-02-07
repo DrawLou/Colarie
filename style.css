@@ -127,7 +127,7 @@ a:link {
     font-size: 25px;
     color: #A12A13;
     text-align: center;
-    margin: 80px 0;
+    margin: 50px 0 40px 0;
 }
 
 .container-produits {
@@ -139,32 +139,32 @@ a:link {
 
 .produit1 {
     margin: 0;
-    width: 340px;
+    width: 250px;
 }
 
 .produit1 img {
     margin: 0 0 0 10px;
-    width: 340px;
+    width: 250px;
 }
 
 .produit2 {
     margin: 0;
-    width: 340px;
+    width: 250px;
 }
 
 .produit2 img {
     margin: 0;
-    width: 340px;
+    width: 250px;
 }
 
 .produit3 {
     margin: 0;
-    width: 340px;
+    width: 250px;
 }
 
 .produit3 img {
     margin: 0;
-    width: 340px;
+    width: 250px;
 }
 
 .titre-produit {
