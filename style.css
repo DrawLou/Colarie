@@ -333,11 +333,14 @@ a:link {
 
 .legende {
     font-size: 14px;
+    font-style: italic;
     text-align: center;
+    color: #A12A13;
 }
 
 .paragraphe {
     font-size: 16px;
+    color: #fff;
 }
 
 /* VOS AVIS */
