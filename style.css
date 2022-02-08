@@ -343,38 +343,59 @@ a:link {
 /* VOS AVIS */
 
 .avis {
-    margin: 30px 100px 80px 100px;
+    background-color: #E65D11;
+    padding: 30px 0 20px 0;
 }
 
 .titre-avis {
-    color: #A12A13;
+    color: #E6A116;
     font-size: 25px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .container-vosAvis {
+    margin: 30px 100px 80px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.imgAvis {
-    justify-content: center;
-    width: 250px;
-    height: 260px;
+.cart {
+    width: 300px;
+    height: 395px;
     background-color: #E6A116;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.imgAvis img{
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    background-color: #A12A13;
 }
 
 .texte-avis {
-    margin: 0 0 0 20px;
+    text-align: left;
 }
 
 .nomPrenom {
- font-size: 20px;
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    color: #A12A13;
 }
 
 .commentaire {
     font-size: 18px;
+    margin: 0;
+    color: #fff;
+}
+
+.note {
+    font-size: 25px;
+    color: #E34985;
+    text-align: right;
 }
 
 /* FOOTER */
