@@ -66,7 +66,7 @@ a:link {
 /* Slideshow container */
 .slideshow-container {
   /*max-width: 1000px;*/
-  margin: 30px 100px 0 100px;
+  margin: 50px 100px 0 100px;
 
   position: relative;
   margin: auto;
@@ -75,6 +75,13 @@ a:link {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.imgSlide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 /* Next & previous buttons */
@@ -96,12 +103,12 @@ a:link {
 
 /* Position the "next button" to the right */
 .next {
-  right: -60px;
+  right: -35px;
   border-radius: 3px 0 0 3px;
 }
 
 .prev {
-    left: -60px;
+    left: -35px;
     border-radius: 3px 0 0 3px;
   }
 
