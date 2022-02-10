@@ -65,14 +65,12 @@ a:link {
 
 /* Slideshow container */
 .slideshow-container {
-  /*max-width: 1000px;*/
   margin: 50px 100px 0 100px;
-
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
+/* Masquer les images par défaut */
 .mySlides {
   display: none;
 }
@@ -101,7 +99,7 @@ a:link {
   margin: 0 20px;
 }
 
-/* Position the "next button" to the right */
+/* Position des flèches */
 .next {
   right: -35px;
   border-radius: 3px 0 0 3px;
@@ -112,7 +110,7 @@ a:link {
     border-radius: 3px 0 0 3px;
   }
 
-/* The dots/bullets/indicators */
+/* Les points */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -128,7 +126,7 @@ a:link {
   background-color: #E65D11;
 }
 
-/* Fading animation */
+/* animation transition */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;

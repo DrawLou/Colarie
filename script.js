@@ -61,18 +61,21 @@ const data2 = {
 
 // SLIDE1
 
+// on déclare la var slideIndex
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+// flèche droite gauche pour passer d'un slide à une autre
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+// Commande d'image
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+// défilement des slides
 
 function showSlides(n) {
   var i;
