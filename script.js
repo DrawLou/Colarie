@@ -1,3 +1,40 @@
+// SLIDE1
+
+// on déclare la var slideIndex
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// flèche droite gauche pour passer d'un slide à une autre
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Commande d'image
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+// défilement des slides
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+// DATAVIZ
+
 // On déclare les datas :
 // le label + sa donnée
 // On peut configurer aussi l'apparance
@@ -59,36 +96,3 @@ const data2 = {
     config2
 );
 
-// SLIDE1
-
-// on déclare la var slideIndex
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// flèche droite gauche pour passer d'un slide à une autre
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Commande d'image
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-// défilement des slides
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
