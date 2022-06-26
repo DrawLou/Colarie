@@ -152,15 +152,15 @@ a:link {
 /* SLOGAN 1 */
 
 .slogan1 {
-    background-color: #A12A13;
     background: url(img/motif3_1.png);
     background-size: cover;
     background-position: center;
-    width: 1440px;
-    padding: 20px;
+    width: 100%;
+    padding: 80px;
 }
 
 .slogan {
+    margin: auto;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
@@ -259,13 +259,11 @@ a:link {
 /* SLOGAN 2 */
 
 .slogan2 {
-    background-color: #A12A13;
     background-image: url(img/motif2.png);
     background-size: cover;
     background-position: center;
-    width: 1440px;
-    height: 150px;
-    padding: 20px;
+    width: 100%;
+    padding: 80px;
 }
 
 .slogann2 {
@@ -330,7 +328,7 @@ a:link {
 .avis {
     background-color: #E65D11;
     padding: 30px 0 20px 0;
-    width: 1440px;
+    width: 100%;
 }
 
 .titre-avis {
@@ -389,7 +387,7 @@ a:link {
 footer {
     background-color: #A12A13;
     height: 670px;
-    width: 1440px;
+    width: 100%;
 }
 
 .container-fideliser {
@@ -572,3 +570,44 @@ footer {
     text-align: center;
     margin: 0;
 }
+
+/* @media only screen and (max-width: 1200px) {
+    .slogan1 {
+        width: 110%;
+    }
+
+    .slogan {
+        font-size: 45px;
+    }
+
+    .slogan2 {
+        width: 110%;
+    }
+
+    .avis {
+        width: 110%;
+    }
+
+    footer {
+        width: 110%;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .slogan1 {
+        width: 100%;
+    }
+
+    .slogan2 {
+        width: 100%;
+    }
+
+    .avis {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+} */
