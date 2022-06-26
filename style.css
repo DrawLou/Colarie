@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #E6A116;
     font-family: 'Nimbus Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 a:link {
@@ -147,10 +152,8 @@ a:link {
 /* SLOGAN 1 */
 
 .slogan1 {
-    background-color: #A12A13;
     background: url(img/motif3_1.png);
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
     padding: 20px;
 }
 
