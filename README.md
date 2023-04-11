@@ -1,2 +1,2 @@
 # Colarie
-DNN16-2 MP2
+Micro projet DNMADE Numérique 2ème année
