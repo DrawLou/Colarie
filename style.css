@@ -152,7 +152,7 @@ a:link {
 /* SLOGAN 1 */
 
 .slogan1 {
-    background: url(img/motif3_1.png);
+    background-image: url(img/motif3_1.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -256,6 +256,35 @@ a:link {
     background-color: #E34985;
 }
 
+@media screen and (max-width: 1080px) {
+  .container-produits {
+    overflow: scroll;
+	    scroll-snap-type: both mandatory;
+	    scroll-padding: 1rem;
+        justify-content: start;
+}
+
+    .produit {
+        scroll-snap-align: center;
+        display: inline-block;
+}
+
+    .produit1 {
+        margin: 0 40px;
+    }
+    .produit2 {
+        margin: 0 40px;
+    }
+    .produit3 {
+        margin: 0 40px;
+    }
+
+    .active {
+        scroll-snap-type: unset;
+}
+
+}
+
 /* SLOGAN 2 */
 
 .slogan2 {
@@ -323,6 +352,17 @@ a:link {
     color: #fff;
 }
 
+@media screen and (max-width: 1080px) {
+  .container-dataviz {
+    flex-direction: column;
+}
+    #myChart2 {
+        width: 80px;
+        width: 80px;
+    }
+
+}
+
 /* VOS AVIS */
 
 .avis {
@@ -351,6 +391,7 @@ a:link {
     background-color: #E6A116;
     padding: 20px;
     margin: 0 10px;
+    border-radius: 30px;
 }
 
 .imgAvis img{
@@ -358,6 +399,7 @@ a:link {
     align-items: center;
     width: 250px;
     background-color: #A12A13;
+    border-radius: 10px;
 }
 
 .texte-avis {
@@ -381,6 +423,26 @@ a:link {
     color: #E34985;
     text-align: right;
 }
+
+@media screen and (max-width: 1080px) {
+    .container-vosAvis {
+	    overflow: scroll;
+	    scroll-snap-type: both mandatory;
+	    scroll-padding: 1rem;
+        justify-content: start;
+  }
+
+    .cart {
+        scroll-snap-align: center;
+	    display: inline-block;
+    }
+
+    
+    .active {
+        scroll-snap-type: unset;
+    }
+
+  }
 
 /* FOOTER */
 
